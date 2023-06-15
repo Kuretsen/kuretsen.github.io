@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://rest-api-my-first-application--kuretsen.repl.co/v1/tasks';
-  const trelloApiRoot = 'https://rest-api-my-first-application--kuretsen.repl.co/v1/trello';
+  const apiRoot = 'https://rest-api-my-first-application.kuretsen.repl.co.repl.co/v1/tasks';
+  const trelloApiRoot = 'https://rest-api-my-first-application.kuretsen.repl.co/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
